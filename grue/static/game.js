@@ -20,9 +20,10 @@
       $('.js-moves').text(data.moves);
       $('.js-score').text(data.score);
 
-      chunk.html(data.response.replace(/\r\n/g, '<br>'));
+      chunk.html(data.response.replace(/\r\n/g, '<br>')).hide();
 
       $('#js-output').append(chunk);
+      chunk.fadeIn();
 
       scrollToBottom();
     });
