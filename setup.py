@@ -11,6 +11,8 @@ setup(name="grue",
       author_email='scott@cartlogic.com',
       install_requires=[
           'pexpect',
+          'gevent',
+          'pyramid',
           # These are for tests.
           'coverage',
           'nose>=1.1',
