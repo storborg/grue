@@ -1,0 +1,51 @@
+body {
+    font-family: Consolas, "Lucida Console", Monaco, monospace;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#header-wrapper {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    border-bottom: 1px solid #888;
+    background-color: #000;
+}
+#header-pad {
+    height: 60px;
+}
+#header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header-block {
+    float: left;
+    padding-top: 8px;
+}
+.location-block {
+    width: 400px;
+}
+.score-block, .moves-block {
+    width: 200px;
+    text-align: right;
+}
+
+#gameplay {
+    width: 800px;
+    margin: 0 auto;
+}
+#gameplay div {
+    margin: 20px 0;
+}
+#gameplay input {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Consolas, "Lucida Console", Monaco, monospace;
+    width: 700px;
+}
